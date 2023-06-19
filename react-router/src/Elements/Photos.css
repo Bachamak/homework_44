@@ -1,0 +1,15 @@
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.albumPhotos {
+    width: 20%;
+}
+
+.albumPhotos img{
+    width: 100px;
+    margin: 5px;
+}

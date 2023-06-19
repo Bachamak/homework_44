@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.userAlbums {
+  text-align: left;
+  margin-bottom: 30px;
+  width: 20%;
+}

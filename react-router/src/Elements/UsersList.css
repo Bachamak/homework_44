@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: auto;
+}
+
+.usersList {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user {
+    width: 20%;
+}
+
+.usersList div {
+    text-align: left;
+    margin-bottom: 25px;
+}
