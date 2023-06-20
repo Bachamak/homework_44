@@ -15,10 +15,10 @@ function Photos({ photos }) {
       {albumPhotos && albumPhotos.map((user, index) => {
         return (
           <div className="albumPhotos" key={index}>
-            <p>id: {user.id}</p>
+            <p>Id: {user.id}</p>
             <img src={user.url} />
             <img src={user.thumbnailUrl} />
-            <p>title: {user.title}</p>
+            <p>Title: {user.title}</p>
           </div>
         );
       })}

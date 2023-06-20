@@ -11,11 +11,11 @@ function Users({ users }) {
         {users && users.map((user, index) => {
           return (
             <div className="user" key={index}>
-              <p>userId: {user.id}</p>
-              <p>name: {user.name}</p>
-              <p>username: {user.username}</p>
-              <p>email: {user.email}</p>
-              <button onClick={() => navigate(`/${user.id}`)}>Show Albums</button>
+              <p>User Id: {user.id}</p>
+              <p>Name: {user.name}</p>
+              <p>Username: {user.username}</p>
+              <p>Email: {user.email}</p>
+              <button onClick={() => navigate(`/${user.id}`)}>Albums</button>
             </div>
           );
         })}

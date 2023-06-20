@@ -13,14 +13,15 @@ function Albums({ albums }) {
   const navigate1 = useNavigate();
   return (
     <div className='container'>
+      <h1>Albums</h1>
       <div className='albums'>
         {userAlbums && userAlbums.map((user, index) => {
           return (
             <div className="userAlbums" key={index}>
-              <p>userId: {user.userId}</p>
-              <p>id: {user.id}</p>
-              <p>title: {user.title}</p>
-              <button onClick={() => navigate1(`${user.id}`)}>Show Photos</button>
+              <p>User Id: {user.userId}</p>
+              <p>Id: {user.id}</p>
+              <p>Title: {user.title}</p>
+              <button onClick={() => navigate1(`${user.id}`)}>Photos</button>
             </div>
           );
         })}
